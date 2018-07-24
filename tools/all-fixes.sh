@@ -82,5 +82,8 @@ ln -sfv "$(brew --prefix)/share/labplot2" "$HOME/Library/Application Support"
 #kdenlive
 ln -sfv "$(brew --prefix)/share/kdenlive" "$HOME/Library/Application Support"
 ln -sfv "$(brew --prefix)/opt/kdenlive/bin/kdenlive.app" "$HOME/Applications/KDE"
+#krename
+ln -sfv "$(brew --prefix)/share/krename" "$HOME/Library/Application Support"
+ln -sfv "$(brew --cellar)/krename/5.0.0/bin/krename.app" "$HOME/Applications/KDE"
 
 exit 0
